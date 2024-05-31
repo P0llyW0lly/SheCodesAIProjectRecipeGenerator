@@ -7,7 +7,7 @@ body {
     max-width: 600px; 
 }
 .prompt {
-    width: 80%; 
+    width: 60%; 
     padding: 16px; 
     border: 1px solid #9400D3; 
     border-radius: 50px;
@@ -15,7 +15,7 @@ body {
     font-size: 16px;
     line-height: 20px;
 }
-.button {
+.sub-butt {
     width:100px;
     margin-left:10px;
     padding: 16px;   
@@ -58,8 +58,8 @@ form {
     box-shadow: 0px 20px 60px #c096d2;
     }
 
-    footer {
-        text-align: center;
-        font-size: smaller;
-        margin-top: 30px;
+footer {
+    text-align: center;
+    font-size: smaller;
+    margin-top: 30px;
     }
