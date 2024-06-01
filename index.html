@@ -20,11 +20,15 @@
         <h1>Welcome to Paula's Recipe Magic</h1>
     </header>
     <main>
+        <div class="form-container">
         <form id="recipe-generator-form">
-            <input type="text" placeholder="Enter the main ingredient you wish to use" required autofocus autocomplete="off" class="prompt" id="ingredient"/>
-            <input type="submit" class="sub-butt"/>
+            <input type="text" placeholder="Enter ingredient here..." required autofocus autocomplete="off" class="prompt" id="ingredient"/>
+            <input type="submit" class="sub-butt"/> <br />
         </form>
-        <div id="recipe" class="recipe">Recipe goes here</div>
+        <br />
+        <div class="hint"> Enter an ingredient you want to cook with and Voila! </div>
+    </div>
+        <div id="recipe" class="recipe hidden"></div>
     </main>
     <footer> 
         Crafted with ❤️ by  <a href="https://github.com/P0llyW0lly" target="_blank">Paula Heenan</a> is open sourced on <a href=https://github.com/P0llyW0lly/SheCodesAIProjectRecipeGenerator target="_blank"> Github </a> and hosted on <a href=https://recipemagia.netlify.app>Netlify</a>

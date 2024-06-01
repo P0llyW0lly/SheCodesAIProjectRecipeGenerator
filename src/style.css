@@ -40,6 +40,42 @@ body {
     border-left: #9400D3;
     box-shadow: 0px 10px 20px #c096d2;
 }
+.hint {
+    color: #9400D3;
+    font-size: 14px;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+.form-container {
+    background-color: #f4b5f4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 60px #c096d2;
+}
+.hidden {
+    display: none;
+}
+.cooking {
+    animation: blink 1.5s infinite;
+    animation-fill-mode: both;
+}
+@keyframes blink {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
+}
+
+form {
+display: flex;
+}
 h1 {
     text-align: center;
     color: #9400D3;
@@ -50,13 +86,6 @@ h1 {
 header {
     margin-bottom: 30px;
 }
-form {
-    background-color: #f4b5f4;
-    display: flex;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 20px 60px #c096d2;
-    }
 
 footer {
     text-align: center;
